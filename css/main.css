@@ -1,0 +1,76 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+ul.movies {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.movies li {
+  line-height: 1.75em;
+  font-size: 3em;
+}
+
+ul.movies li.watched {
+  text-decoration: line-through;
+  color: #aeaeae;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.site {
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em;
+}
+
+.site .header h1.title {
+  display: inline-block;
+  margin-bottom: .5em;
+  font-weight: 900;
+  font-size: 4em;
+  width: 100%;
+  border-bottom: 2px solid black;
+}

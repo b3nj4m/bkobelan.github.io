@@ -1,0 +1,47 @@
+---
+layout: default
+title: Blake's Movie List
+movies:
+- title: Pulp Fiction
+  watched: false
+- title: Ghostbusters
+  watched: false
+- title: Groundhog Day
+  watched: false
+- title: Starwars
+  watched: false
+- title: What About Bob?
+  watched: false
+- title: Zombieland
+  watched: false
+- title: Goonies
+  watched: false
+- title: The Shawshank Redemption
+  watched: false
+- title: Amelie
+  watched: false
+- title: The Royal Tenenbaums
+  watched: false
+- title: Kill Bill
+  watched: false
+- title: True Romance
+  watched: false
+- title: Resorvoir Dogs
+  watched: false
+- title: Slacker
+  watched: false
+- title: Con Air
+  watched: false
+- title: Shawn of the Dead
+  watched: false
+- title: Hot Fuzz
+  watched: false
+---
+
+<div id="home">
+  <ul class="movies">
+    {% for movie in page.movies %}
+      <li {% if movie.watched %}class="watched"{% endif %}>- {{ movie.title }}</li>
+    {% endfor %}
+  </ul>
+</div>
