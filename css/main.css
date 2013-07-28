@@ -42,6 +42,7 @@ ul.movies {
 ul.movies li {
   line-height: 1.75em;
   font-size: 3em;
+  padding: 0 .5em;
 }
 
 ul.movies li.watched {
@@ -69,8 +70,9 @@ body {
 .site .header h1.title {
   display: inline-block;
   margin-bottom: .5em;
-  font-weight: 900;
+  font-weight: 300;
   font-size: 4em;
   width: 100%;
+  padding: 0 .5em;
   border-bottom: 2px solid black;
 }
